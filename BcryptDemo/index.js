@@ -1,9 +1,7 @@
 const bcrypt = require('bcrypt');
 
 const hashPassword = async (pw) => {
-    const salt = await bcrypt.genSalt(10); //salt indicate how many round, bcrypt need to get into
-    const hash = await bcrypt.hash(pw, salt);
-    console.log(salt);
+    const hash = await bcrypt.hash(pw, 12);
     console.log(hash);
 }
 
@@ -15,5 +13,5 @@ const login =async (pw, hashedPw) => {
         console.log("INCORRECT!")
     }
 }
-// hashPassword('monkey');
-login('monkey', '$2b$10$RelD/rdx1HxXSmziCArkrOOTc4M2Q4AlqhQObeOMgsMK8/Xg9W886')
+hashPassword('monkey');
+// login('monkey', '$2b$10$RelD/rdx1HxXSmziCArkrOOTc4M2Q4AlqhQObeOMgsMK8/Xg9W886')
