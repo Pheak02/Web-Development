@@ -1,0 +1,21 @@
+p{
+    text-indent: 20px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 50px;
+}
+
+.date{
+
+    display:inline;
+    background-color: orange;
+    padding: 10px;
+
+}
+p a{
+    color: orange
+}
+
