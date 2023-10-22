@@ -1,12 +1,8 @@
 /* css for task1 */
 
 .task1 p{
-/* css for task1 */
-
-.task1 p{
     text-indent: 20px;
 }
-.task1{
 .task1{
     background-color: black;
     color: white;
@@ -15,14 +11,12 @@
 }
 
 .task1 .date{
-.task1 .date{
 
     display:inline;
     background-color: orange;
     padding: 10px;
 
 }
-.task1 p a{
 .task1 p a{
     color: orange
 }
@@ -33,11 +27,13 @@
     position: relative;
     width:75%;
     size:20px;
+     text-align: center;
 
   }
   
   .banner-image {
     width: 100%;
+    height:auto;
   }
   
   .banner-text {
@@ -53,6 +49,9 @@
     font-size: 36px;
     font-weight: bold;
   }
+  .textBelowBanner {
+    text-align: center;
+  }
   
   .banner-text p {
     font-size: 18px;
@@ -63,6 +62,9 @@
   .textBelowBanner{
     color: gray;
     
+  }
+  div.banner.textBelowBanner{
+    text-align: center;
   }
 
   /* css for task3 */
@@ -119,3 +121,36 @@
     background-color: rgba(26, 105, 179, 0.867);
     color: white;
   }
+/* css for task 4 */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
