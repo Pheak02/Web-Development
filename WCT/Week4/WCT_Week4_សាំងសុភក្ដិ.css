@@ -1,21 +1,60 @@
-p{
+/* css for task1 */
+
+.task1 p{
     text-indent: 20px;
 }
-body{
+.task1{
     background-color: black;
     color: white;
     font-family: 'Lato', sans-serif;
     padding: 50px;
 }
 
-.date{
+.task1 .date{
 
     display:inline;
     background-color: orange;
     padding: 10px;
 
 }
-p a{
+.task1 p a{
     color: orange
 }
 
+
+/* css for task2 */
+.banner {
+    position: relative;
+    width:75%;
+    size:20px;
+
+  }
+  
+  .banner-image {
+    width: 100%;
+  }
+  
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .banner-text p {
+    font-size: 18px;
+  }
+  .banner .intro {
+    color: whitesmoke
+  }
+  .textBelowBanner{
+    color: gray;
+    
+  }
