@@ -58,3 +58,43 @@
     color: gray;
     
   }
+
+  /* css for task3 */
+  .menu {
+    display: flex;
+  }
+  
+  .vertical {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .vertical li {
+    margin-bottom: 10px;
+    background-color: green;
+    padding-left: 10px;
+    padding-right: 150px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    color: black;
+  }
+  .vertical #home {
+    color:white !important;
+  }
+
+  
+  .horizontal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .horizontal li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .horizontal li:last-child {
+    margin-right: 0;
+  }
