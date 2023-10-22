@@ -60,41 +60,56 @@
   }
 
   /* css for task3 */
-  .menu {
-    display: flex;
+  /* for vertical menu */
+  .vertical-menu {
+    width: 200px;
   }
   
-  .vertical {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .vertical li {
-    margin-bottom: 10px;
-    background-color: green;
-    padding-left: 10px;
-    padding-right: 150px;
-    padding-top:10px ;
-    padding-bottom: 10px;
+  .vertical-menu a {
+    background-color: #eee;
     color: black;
-  }
-  .vertical #home {
-    color:white !important;
-  }
-
-  
-  .horizontal {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
   }
   
-  .horizontal li {
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: rgba(0, 128, 0, 0.63);
+    color: white;
+  }
+  /* for horizontal menu */
+  div.scrollmenu {
+    background-color: #eee;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex; /* Add this line to enable flexbox layout */
+    justify-content: flex-end; /* Add this line to align items to the end */
+  }
+/* div.scrollmenu #about{
+    text-align: right !important;
+  } */
+  div.scrollmenu a {
     display: inline-block;
-    margin-right: 10px;
+    color: grey;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin-left: 10px; /* Add a margin between the menu items */
   }
-  
-  .horizontal li:last-child {
-    margin-right: 0;
+  .scrollmenu a:last-child {
+    margin-right: 10px;/* Add a margin to the last menu item */
+  }
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  .scrollmenu a#about {
+    margin-left: auto; /* Add this line to push the "About" menu item to the right */
+  }
+  .scrollmenu a.active {
+    background-color: rgba(26, 105, 179, 0.867);
+    color: white;
   }
