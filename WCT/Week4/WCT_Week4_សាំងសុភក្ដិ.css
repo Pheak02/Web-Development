@@ -1,8 +1,12 @@
 /* css for task1 */
 
 .task1 p{
+/* css for task1 */
+
+.task1 p{
     text-indent: 20px;
 }
+.task1{
 .task1{
     background-color: black;
     color: white;
@@ -11,12 +15,14 @@
 }
 
 .task1 .date{
+.task1 .date{
 
     display:inline;
     background-color: orange;
     padding: 10px;
 
 }
+.task1 p a{
 .task1 p a{
     color: orange
 }
