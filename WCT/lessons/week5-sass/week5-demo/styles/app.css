@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 1rem 0;
+}
+
+.section-banner img {
+  width: 100%;
+}
+
+.section-portfolio .heading {
+  text-align: center;
+}
+.section-portfolio .products {
+  display: flex;
+}
+.section-portfolio .cta {
+  background-color: #008000;
+  padding: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  padding: 1rem;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #008000;
+}
+
+/*# sourceMappingURL=app.css.map */
