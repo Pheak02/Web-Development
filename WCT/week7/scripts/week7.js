@@ -64,3 +64,32 @@ function checkPalindrome() {
     outputElement.innerText = "The number is not a palindrome.";
   }
 }
+
+//task3
+function sortArray() {
+  const inputArray = document.getElementById("input-array").value;
+
+  if (inputArray.trim() === "") {
+    document.getElementById("sorted-result").textContent =
+      "Please enter a valid array.";
+    return;
+  }
+
+  const array = inputArray.split(",").map((num) => Number(num.trim()));
+  const sortedArray = bubbleSort(array);
+  document.getElementById("sorted-result").textContent = sortedArray.join(", ");
+}
+
+function bubbleSort(array) {
+  const length = array.length;
+
+  for (let i = 0; i < length - 1; i++) {
+    for (let j = 0; j < length - 1 - i; j++) {
+      if (array[j] > array[j + 1]) {
+        [array[j], array[j + 1]] = [array[j + 1], array[j]];
+      }
+    }
+  }
+
+  return array;
+}
