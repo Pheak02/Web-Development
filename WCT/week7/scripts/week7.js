@@ -1,7 +1,7 @@
 function convertToString() {
   const numberInput = document.getElementById("number").value;
 
-  // Convert the number to a string
+  // Convert number to string
   const numberAsString = numberInput.toString();
 
   let outputString = "";
@@ -46,10 +46,10 @@ function convertToString() {
 function checkPalindrome() {
   const numberInput = document.getElementById("number1").value;
 
-  // Convert the number to a string
+  // Convert number to string
   const numberAsString = numberInput.toString();
 
-  // Reverse the string
+  // Reverse string
   const reversedString = numberAsString.split("").reverse().join("");
 
   let isPalindrome = false;
@@ -92,4 +92,26 @@ function bubbleSort(array) {
   }
 
   return array;
+}
+
+//task4
+// Function to sum all values passed to it
+function calculateSum() {
+  const input = document.getElementById("num-input");
+  const numbers = input.value.split(",");
+
+  // Convert each number string to a numeric value and calculate the sum
+  const sumTotal = numbers.reduce((total, num) => {
+    const parsedNum = parseInt(num.trim(), 10);
+
+    if (!isNaN(parsedNum)) {
+      return total + parsedNum;
+    } else {
+      return total;
+    }
+  }, 0);
+
+  const sumResult = document.getElementById("sum-result");
+  sumResult.textContent = `Sum: ${sumTotal}`;
+  input.value = "";
 }
