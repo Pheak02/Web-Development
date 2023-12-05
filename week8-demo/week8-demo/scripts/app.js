@@ -81,7 +81,7 @@ $(document).ready(function () {
   }
 
   function saveStudent() {
-    const id = $("#id").val() || "";
+    const id = $("#id").val();
     const fullname = $("#newFullName").val();
     const phone = $("#newPhone").val();
     const newStudent = {
@@ -92,10 +92,11 @@ $(document).ready(function () {
     $.ajax({
       url: `${baseUrl}/students`,
       method: "POST",
-      data: newStudent,
+      data: { newStudent },
       success: function (student) {
         console.log("haha", student);
-        insertStudentRow(newStudent);
+        console.log("data", student.data);
+        insertStudentRow(student.data);
         console.log("new studnet", newStudent);
         closeModal("newStudentModal");
       },
