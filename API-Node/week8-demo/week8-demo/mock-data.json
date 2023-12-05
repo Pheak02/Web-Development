@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "fullname": "Sok San",
+      "phone": "012 121212",
+      "id": 1
+    },
+    {
+      "fullname": "Mey Mey",
+      "phone": "012 121212",
+      "id": 2
+    },
+    {
+      "fullname": "Kimly 002",
+      "phone": "012 121212",
+      "id": 4
+    },
+    {
+      "fullname": "Kimly 003",
+      "phone": "012 121212",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "sok@gmail.com",
+      "fullname": "Sok San",
+      "phone": "012 121212"
+    }
+  ]
+}
