@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    padding-left: 30px;
+}
+
+header .logo img {
+    width: 60px;
+}
+
+header nav .menu {
+    display: flex;
+    list-style: none;
+}
+
+header nav .menu li {
+    padding: 15px;
+}
+
+header nav .menu li a {
+    text-decoration: none;
+}
+
+header nav .menu li:hover a {
+    background-color: #008000;
+    color: #fff;
+}
+
+.sec-banner img {
+    width: 100%;
+}
+
+.sec-portfolio .heading {
+    text-align: center;
+}
+
+.sec-portfolio .portfolios {
+    display: flex;
+    padding: 30px;
+}
+
+.sec-portfolio .portfolios .portfolio-item {
+    width: 25%;
+    padding: 15px;
+}
+
+.sec-portfolio .portfolios .portfolio-item img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
