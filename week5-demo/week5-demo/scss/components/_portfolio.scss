@@ -1,0 +1,19 @@
+.sec-portfolio {
+    .heading {
+        text-align: center;
+    }
+
+    .portfolios {
+        display: flex;
+        padding: 30px;
+
+        .portfolio-item {
+            width: 25%;
+            padding: 15px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
