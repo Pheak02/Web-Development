@@ -4,7 +4,6 @@ function Exercise2(str) {
   // Split string
   const numbers = str.split(/[, ]+/).map((item) => parseFloat(item));
 
-  // Filter out invalid numbers
   const validNumbers = numbers.filter((num) => !isNaN(num));
 
   return validNumbers.reduce((acc, current) => acc + current, 0);
@@ -17,4 +16,4 @@ const result1 = Exercise2(numbersString1);
 const result2 = Exercise2(numbersString2);
 
 console.log(result1); // Output: 15
-console.log(result2); // Output: 15
+console.log(result2); // Output: 770
