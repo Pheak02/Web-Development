@@ -1,6 +1,5 @@
-// rules: rectangle can fit inside the circle only if its root square of sum of sqare of (width & high) is smaller than
 // returns true if the diagonal is smaller than or equal to twice the radius of the circle, indicating that the rectangle can fit inside the circle.
-function rectangleInCircle(rectangleWidth, rectangleHeight, circleRadius) {
+function Exercise4(rectangleWidth, rectangleHeight, circleRadius) {
   // Calculate the diagonal of the rectangle
   const diagonal = Math.sqrt(rectangleWidth ** 2 + rectangleHeight ** 2);
 
@@ -9,6 +8,6 @@ function rectangleInCircle(rectangleWidth, rectangleHeight, circleRadius) {
 }
 
 // Example usage:
-console.log(rectangleInCircle(8, 6, 5)); // Output: true
-console.log(rectangleInCircle(5, 9, 5)); // Output: false
-console.log(rectangleInCircle(4, 7, 4)); // Output: false
+console.log(Exercise4(8, 6, 5)); // Output: true
+console.log(Exercise4(5, 9, 5)); // Output: false
+console.log(Exercise4(4, 7, 4)); // Output: false

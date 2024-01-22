@@ -1,4 +1,4 @@
-function isVowelSandwich(str) {
+function Exercise5(str) {
   // Input must be a string of length 3
   if (typeof str !== "string" || str.length !== 3) {
     return false;
@@ -23,7 +23,7 @@ function isVowelSandwich(str) {
 }
 
 // sample input
-console.log(isVowelSandwich("bat")); // Output: true
-console.log(isVowelSandwich("dog")); // Output: false
-console.log(isVowelSandwich("ace")); // Output: false
-console.log(isVowelSandwich("ear")); // Output: false
+console.log(Exercise5("bat")); // Output: true
+console.log(Exercise5("dog")); // Output: false
+console.log(Exercise5("ace")); // Output: false
+console.log(Exercise5("ear")); // Output: false

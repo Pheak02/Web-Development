@@ -1,11 +1,11 @@
 function Exercise3(str) {
   // Split string
-  const removeSpecCha = string1.replace(/[^\w\s]/gi, "");
+  const removeSpecCha = string1.replace(/[^\w\s-]/gi, "");
   return removeSpecCha;
 }
 
 const string1 =
-  "You are a great teacher!, I am - me, %fd76$fd(-)6GvKlO., D0n$csed0di0du1";
+  "You are a great teacher!, I am - me, %fd76$fd(-)6GvKlO.,_ D0n$csed0di0du1";
 // const string2 = "";
 // const string3 = "";
 
