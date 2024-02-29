@@ -8,3 +8,10 @@
 .tag{
     color: pink
 }
+/* Adjacent selector */
+input + button {
+    background-color: purple;
+}
+input[type="password"]{
+    color:greenyellow;
+}
