@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "mongoose": "^7.5.2",
-    "npx": "^10.2.2"
-  }
-}
