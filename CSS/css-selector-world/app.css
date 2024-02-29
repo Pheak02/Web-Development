@@ -12,6 +12,20 @@
 input + button {
     background-color: purple;
 }
+/* there are two existing inputs, so we speficy this to style only the type we want */
 input[type="password"]{
     color:greenyellow;
+}
+
+/* this will select all post */
+section[class="post"]{
+    background-color: purple;
+}
+/* this will only with the section with class of post */
+section.post{
+    background-color: brown;
+}
+/* ASelector*=text means A that contains B */
+a[href*="google"]{
+ color:magenta   
 }
