@@ -7,7 +7,15 @@
 </head>
 <body>
     <?php
-    echo("Hello World");
+    // VAR
+    $characterName = "Sophie";
+    $characterAge = "20";
+
+    // WRITING HTML
+    echo("There is a women named $characterName<br>");
+    echo ("She was nearly $characterAge years old <br>");
+    echo ("She really like here name but was doubt her life's choice<br>");
+    echo ("But don't like turning $characterAge<br>");
     ?>
 </body>
 </html>
