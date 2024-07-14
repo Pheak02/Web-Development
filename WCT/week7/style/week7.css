@@ -1,0 +1,81 @@
+/* task 1 */
+body{
+    margin: 0 500px 0 500px;
+
+}
+.task1{
+    background-color: orange;
+    text-align: center;
+}
+.task1 button{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.output {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+/* task 2 */
+.task2{
+    background-color: orange;
+    text-align: center;
+}
+.task2 button{
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.output2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+/* task 3 */
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .input-label {
+    margin-top: 20px;
+  }
+
+  .input-box {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .btn-sort {
+    padding: 8px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .sorted-result {
+    margin-top: 20px;
+  }
+/* task 4 */
+.task4 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  input {
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
+  #sum-result {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+  }
