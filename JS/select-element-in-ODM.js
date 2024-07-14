@@ -1,20 +1,31 @@
 //DOm Manipulation
 
-//GetElementById()
-const title = document.getElementById("main-heading");
-console.log(title);
+// ===change styling
+const title = document.querySelector("#main-heading");
+title.style.color = "red";
 
-//GetElementByClassName()
+const listItem = document.querySelectorAll('.list-items');
 
-//getElementsByTagName()
-const listItems = document.getElementsByTagName('li');
-console.log(listItems)
+for(i=0; i<listItem.length; i++){
+    
+    listItem[i].style.fontSize = '2rem';
+}
 
-//querySelector()
-const queryDiv  = document.querySelector('div')
-console.log(queryDiv)
+// //GetElementById()
+// const title = document.getElementById("main-heading");
+// console.log(title);
 
-//querySelectorAll()
+// //GetElementByClassName()
 
-const queryAll  = document.querySelectorAll('div')
-console.log(queryAll)
+// //getElementsByTagName()
+// const listItems = document.getElementsByTagName('li');
+// console.log(listItems)
+
+// //querySelector()
+// const queryDiv  = document.querySelector('div')
+// console.log(queryDiv)
+
+// //querySelectorAll()
+
+// const queryAll  = document.querySelectorAll('div')
+// console.log(query)
